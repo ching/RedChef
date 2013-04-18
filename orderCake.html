@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="keywords" content="Products, Desserts, Entrees, Sales, Recipe, Appetizers">
+<meta name="description" content="Lists the culinary products such as different foods available for clients in our store.">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Order Cakes</title>
+</head>
+<body>
+	<br><br>
+	<form action="orderCake.jsp" method="POST">
+		<h2>Order your cake!</h2>
+		<br><br>
+		<div id="wrapperCake"><hr/><br><br>
+			<div id="leftColmCake">	
+				Assorted Cakes<br>
+				<img src="images/products/Desserts/Cakes.JPG" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="AssortedCakes" value="Assorted">
+			  	<input type="hidden" name="AssortedID" value="IDforAssorted">
+				
+				Chocolate Cream Cake<br>	
+				<img src="images/products/Desserts/ChocoCreamCake.JPG" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="ChocoCreamCake" value="ChocoCream">
+			  	<input type="hidden" name="ChocoCreamID" value="IDforChocoCream">	
+				
+				Chocolate Cake<br>		
+				<img src="images/products/Desserts/ChocoCake.JPG" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="ChocoCake" value="Choco">
+			  	<input type="hidden" name="ChocoID" value="IDforChoco">	
+				
+				Rose Cake<br>
+				<img src="images/products/Desserts/RoseCake.JPG" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="RoseCake" value="Rose">
+			  	<input type="hidden" name="RoseID" value="IDforRose">	
+					
+				Mango Mousse Cake<br>
+				<img src="images/products/Desserts/MangoMousse.jpg" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="MangoMousseCake" value="MangoMousse">
+			  	<input type="hidden" name="MangoMousseID" value="IDforMangoMousse">	
+				
+				Peach Cake<br>	
+				<img src="images/products/Desserts/PeachCake.jpg" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="PeachCake" value="Peach">
+			  	<input type="hidden" name="PeachID" value="IDforPeach">	
+				
+				Marshmallow Cake<br>	
+				<img src="images/products/Desserts/MarshmallowCake.jpg" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="MarshmallowCake" value="Marshmallow">
+			  	<input type="hidden" name="MarshmallowID" value="IDforMarshmallow">	
+				
+				Dark Chocolate Cake<br>	
+				<img src="images/products/Desserts/DarkChocoCake.jpg" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="DarkChocoCake" value="DarkChoco">
+			  	<input type="hidden" name="DarkChocoID" value="IDforDarkChoco">	
+					
+				Jello Cake<br>
+				<img src="images/products/Desserts/JelloCake.png" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="JelloCake" value="Jello">
+			  	<input type="hidden" name="JelloID" value="IDforJello">	
+				
+				Tirimisu Cake<br>	
+				<img src="images/products/Desserts/Tirimisu.jpg" alt="Dessert" 
+				title="Yum!" width="250" height="200" hspace="5" vspace="5"><br><br>
+				<input type="hidden" name="TirimisuCake" value="Tirimisu">
+			  	<input type="hidden" name="TirimisuID" value="IDforTirimisu">	
+			</div>
+			<div id="rightColmCake">
+				Message: (optional)<br>
+				<textarea name="assortedMsg" rows="11" cols="45"></textarea><br>
+				Quantity:  
+				<select name="assortedQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+				Message: (optional)<br>
+				<textarea name="chocoCreamMsg" rows="11" cols="45"></textarea><br>
+				Quantity:  
+				<select name="chocoCreamQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+				Message: (optional)<br>
+				<textarea name="chocoMsg" rows="10" cols="45"></textarea><br>
+				Quantity:  
+				<select name="chocoQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+				Message: (optional)<br>
+				<textarea name="roseMsg" rows="10" cols="45"></textarea><br>
+				Quantity:  
+				<select name="roseQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+				Message: (optional)<br>
+				<textarea name="mangoMousseMsg" rows="11" cols="45"></textarea><br>
+				Quantity:  
+				<select name="mangoMousseQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br>
+				Message: (optional)<br>
+				<textarea name="peachMsg" rows="11" cols="45"></textarea><br>
+				Quantity:  
+				<select name="peachQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+				Message: (optional)<br>
+				<textarea name="marshmallowMsg" rows="11" cols="45"></textarea><br>
+				Quantity:  
+				<select name="marshmallowQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+				Message: (optional)<br>
+				<textarea name="darkChocoMsg" rows="10" cols="45"></textarea><br>
+				Quantity:  
+				<select name="darkChocoQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+				Message: (optional)<br>
+				<textarea name="jelloMsg" rows="10" cols="45"></textarea><br>
+				Quantity:  
+				<select name="jelloQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br>
+				Message: (optional)<br>
+				<textarea name="tirimisuMsg" rows="10" cols="45"></textarea><br>
+				Quantity:  
+				<select name="tirimisuQuantity">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select><br><br><br>
+			</div>
+			<div class="clearboth">
+				<div id="center"><hr/>
+					Would you like your cake wrapped? 
+					(Yes<input type="radio" name="wrapped" value="wrap">
+					No<input type="radio" name="wrapped" value="not wrap" checked="true">)
+					<br><br><input type="Submit" value="Submit My Order!">
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
